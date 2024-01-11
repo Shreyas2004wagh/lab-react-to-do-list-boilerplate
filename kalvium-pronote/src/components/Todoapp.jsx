@@ -48,6 +48,7 @@ export default class Todoapp extends React.Component {
 
     return (
       <>
+       <div className="centered-container">
       <div className="addTodo">
       <input type="text" value={textValue} onChange={handleChange} placeholder="Enter" />
       <button onClick={handleClick}>Add</button>
@@ -63,6 +64,7 @@ export default class Todoapp extends React.Component {
 
         
         )}
+      </div>
       </div>
       </>
     )
